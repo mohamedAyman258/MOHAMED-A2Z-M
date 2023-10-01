@@ -1,0 +1,188 @@
+*{
+padding: 0;
+margin: 0;
+}
+nav{
+height: 10vh;
+background-color: #008cff;
+}
+.right{
+float: right;
+margin-top: 15px;
+margin-right: 15px;
+}
+.left{
+float: left;
+margin-top: 20px;
+}
+nav ul li{
+display: inline-block;
+margin: 0 15px;
+
+} 
+nav a{
+color: white;
+font-size: 30px;
+text-decoration: none;
+}
+nav a:hover{
+color: tomato;
+cursor: pointer;
+}
+.animation{
+animation-name: anim;
+animation-duration: 10s;
+animation-delay: 0s;
+animation-iteration-count: infinite;
+height: 40vh;
+}
+@keyframes anim{
+0%{
+background-image: url(images/slid1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+25%{
+    background-image: url(images/slid2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+50%{
+    background-image: url(images/slid3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+}
+75%{
+    background-image: url(images/slid4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+}
+100%{
+    background-image: url(images/slid5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+}
+
+
+header button,input{
+padding: 8px;
+}
+.z{
+height: 10vh;
+background-color: white;
+border: blue;
+border-style: dotted;
+}
+.right-h{
+float: right;
+margin-top: 15px;
+margin-right: 15px;
+}
+.left-h{
+float: left;
+margin: 15px 0 0 15px;
+}
+ ul li{
+display: inline-block;
+margin: 0 15px;
+
+} 
+header a{
+    color: black;
+font-size: 30px;
+text-decoration: none;
+}
+header a:hover{
+color: tomato;
+cursor: pointer;
+}
+header{
+    background-color: gainsboro;
+    height: 10vh;
+    direction: rtl;
+}
+.offers{
+font-size: 12px;
+text-align: center;
+color: #008cff;
+margin: 20px 0;
+}
+.off{
+float: left;
+width: 25%;
+}
+.offers img{
+border-radius: 20px;
+
+}
+.clr{
+    clear: both;
+}
+.deals{
+direction: rtl;
+ color: #008cff;
+background-color: rgba(109, 98, 98, 0.397);
+height: 30vh;
+}
+.deal{
+float: left;
+margin: 50px;
+
+}
+.deals img{
+width: 120px;
+height: 200px;
+border-radius: 25px;
+}
+.deals img:hover{
+transform: scale(1.2);
+
+}
+.deals h2{
+margin: 10px 20px 0 0;
+
+}
+.login{
+text-align: center;
+
+}
+.login button{
+background-color: #008cff;
+color: white;
+font-size: 15px;
+padding: 15px;
+margin: 10px 0;
+border: none;
+border-radius: 15px;
+}
+.float{
+direction: rtl;
+    float: right;
+    width: 20%;
+}
+footer {
+padding: 20px;
+    margin: top;
+    background-color: #008cff;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    
+}
+footer :hover{
+
+    color: black;
+}
+
